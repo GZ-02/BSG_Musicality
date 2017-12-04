@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0000">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/ChoicesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.alarm.georgia.bsg_musicality.InfoActivity">
+
+        <TextView
+            android:id="@+id/AspectId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:text="@string/PickAsppect"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <Spinner
+            android:id="@+id/firstList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"/>
+
+        <TextView
+            android:id="@+id/GenreId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="20dp"
+            android:paddingTop="20dp"
+            android:text="@string/PickGenre"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <Spinner
+            android:id="@+id/secondtList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"/>
+
+        <TextView
+            android:id="@+id/LevelId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="20dp"
+            android:paddingTop="20dp"
+            android:text="@string/PickLevel"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <Spinner
+            android:id="@+id/thirdList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"/>
+
+        <Button
+            android:id="@+id/ChoicesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:onClick="ChoicesClicked"
+            android:paddingTop="20dp"
+            android:text="@string/ButtonChoices" />
+
+
+    </LinearLayout>
+
+</ScrollView>

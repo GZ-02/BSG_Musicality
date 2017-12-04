@@ -1,4 +1,38 @@
 <resources>
     <string name="app_name">BSG_Musicality</string>
     <string name="MyText">Menu:</string>
+    <string name="DescrTitle">Story Description:</string>
+    <string name="OurStory"> There is no story yet! :) </string>
+    <string name="PickAsppect"> Pick the aspect of musicality you wish to practise on:</string>
+    <string name="PickGenre"> Pick the music genre you wish to practise with:</string>
+    <string name="PickLevel">Pick a level of difficulty:</string>
+    <string name="ButtonChoices">Save choices</string>
+    <string name="InstrTestTitle"> Instrument Recognition Test 1:</string>
+    <string name="menu">Menu</string>
+    <string name="MusicTest">Musicality Test</string>
+    <string name="ExitTest">Exit</string>
+
+    <string-array name="AspectList">
+        <item> Choose an aspect: </item>
+        <item> Instrument Recognition</item>
+        <item> Rhythm </item>
+        <item> Tone </item>
+        <item> Random Choice </item>
+    </string-array>
+
+    <string-array name="GenreList">
+        <item> Choose Genre: </item>
+        <item> Classical Music </item>
+        <item> Hard Rock </item>
+        <item> All of the above </item>
+    </string-array>
+
+    <string-array name="LevelList">
+        <item>Choose level of difficulty:</item>
+        <item>Beginner</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+        <item>Maestro</item>>
+    </string-array>
 </resources>
